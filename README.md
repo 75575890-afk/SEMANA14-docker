@@ -74,3 +74,6 @@ Si el texto llega vacío, la API responde 400 con {"error": "Texto vacio"}. El e
 
 
 El pip install del Dockerfile usa --trusted-host porque la red del laboratorio intercepta HTTPS y pip rechaza el certificado. Fuera de esa red no hace falta, pero tampoco molesta.
+
+## Evidencia.
+![Contenedor funcionando](captura.png)
